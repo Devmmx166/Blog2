@@ -6,28 +6,36 @@
 		<title>Document</title>
 		<script type="module" src="post_page.js"></script>
 		<link rel="stylesheet" href="post_page_style.css" />
+		
 	</head>
 	<body>
 		<!--  -->
-		<div class="container">
-			<a href="index.html" style="text-decoration: none; font-size: 1.4rem"
-				>Página principal</a
-			>
-
+		<nav class="container">
+			
+			<ul>
+				<li><h1 id="logo">InfoTech</h1></li>
+				<li>
+					
+					<a href="index.html" style="text-decoration: none; font-size: 1.4rem"
+						>Página principal</a>
+				</li>
+					
+			</ul>
+			<span class="post_views">Número de visualizações: <span data_views style="font-size: 1rem;">...</span> </span>
 			<!--  -->
 			<section class="post">
 				<h2 data_title>Título do card...</h2>
 
-				<span class="post_date" data_date_time>Data...</span><br />
+				<li class="post_date" data_date_time>Data...</li>
 
-				<span class="post_date" data_category>Categoria...</span><br />
+				<li class="post_date" data_category>Categoria...</li>
 
 				<!--  -->
-				<div>
-					<span class="post_views">Número de visualizações: </span>
+				
+					
 
-					<span data_views style="font-size: 2rem;">...</span>
-				</div>
+					
+				
 
 				<!--  -->
 				<img
@@ -38,6 +46,6 @@
 				/>
 				<p class="post_description" style="font-size: 1.5rem;" class="post_description" data_text>Texto...</p>
 			</section>
-		</div>
+		</nav>
 	</body>
 </html>
