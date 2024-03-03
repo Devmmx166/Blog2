@@ -56,12 +56,12 @@ h1 {
 
 
 .filter_item {
-    font-size: 1rem;
-  
+    font-size:16px;
+    margin: 1px;  
     cursor: pointer;
  
     transition: 0.4s;
-    padding: 1px;
+   text-align: center;
     width: 175px;
     height: 50px;
     display: flex;
