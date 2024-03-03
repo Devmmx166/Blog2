@@ -49,8 +49,7 @@ h1 {
     column-gap: 1.2rem;
     margin-top: 2rem !important;
     padding: 0;
-    width:100%;
-    
+    width:100%;   
     
 }
 
@@ -73,7 +72,7 @@ h1 {
 
 .filter_item:hover {
     background-color: #f2f2f2;
-    color:#000000 ;
+    
 }
 
 .cards {
